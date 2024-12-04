@@ -1,0 +1,135 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex:1;
+}
+
+.navbar{
+     height: 5rem;
+     background-color: white;
+}
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+.nav-link{
+    color: #222222 !important;
+}
+
+/* footer */
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-links,.f-info-socials,.f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-info-socials i{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+.f-info{
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+/* Add this to your existing CSS file or inside a <style> tag in your HTML */
+.rows {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Adjust the gap between cards as needed */
+}
+
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+    flex: 1 1 calc(25% - 1rem); /* Adjust the percentage as needed for the number of cards per row */
+    box-sizing: border-box;
+    margin: 1rem;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width:100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding:0 !important;
+    
+}
+.card img {
+    width: 100%; /* Ensure the image takes the full width of the card */
+    height: auto; /* Maintain the aspect ratio of the image */
+}
+
+
+.listing-link{
+    text-decoration: none !important;
+}
+
+/* card effect */
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* add new page */
+.add-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* edit page */
+.edit-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* show page */
+#show-img{
+    height: 30vh;
+}
+
+.btn{
+    display:flex;
+    gap:5px;
+}
+
+#click{
+    position: relative;
+    left: 10px;
+    bottom: 35px;
+}
+
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/* map */
+#map {
+    height: 400px;
+    width: 90vh;
+ }
